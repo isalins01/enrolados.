@@ -96,8 +96,21 @@ th, td {
 
 th {
     background-color: #f2d1a0;
-    color: #4b3832;
-    font-size: 1.1em;
+    color: #40324b;
+    font-size: 20px;
+}
+
+tr {
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:hover td {
+    background-color: #fce4ec;
+    cursor: pointer;
+}
+
+th, td{
+    font-size: 18px;
 }
 
 .botao {
